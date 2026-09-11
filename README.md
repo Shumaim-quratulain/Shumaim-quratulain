@@ -71,13 +71,13 @@ Forward-thinking Computer Science Engineering undergraduate specializing in resi
   * Engineered a low-latency, dynamic shopping cart state management subsystem utilizing Redis distributed caching to optimize session performance.
   * Designed and optimized complex relational database schemas and transactional boundaries, ensuring strict ACID compliance under heavy peak traffic loads.
 
-**2. Cocia — Scalable Social Media Backend Platform**
-* **Overview:** Developed a resilient, high-throughput social networking backend infrastructure designed to power real-time user engagement, bidirectional messaging, and fluid community interactions.
-* **Tech Stack:** Java, Spring Boot, MySQL, WebSocket, STOMP, Hibernate, Docker.
+**2. CampusCertify — Event Certificate Eligibility Board**
+* **Overview:** Developed an internal Spring Boot service to validate college event certificates based on category completion (`LEARN`, `BUILD`, `SHARE`) and a 6-point threshold[cite: 1].
+* **Tech Stack:** Java 21, Spring Boot 3.5, REST APIs, JUnit 5, AssertJ, MockMvc, Maven, Postman.
 * **Key Architecture & Engineering Highlights:**
-  * Integrated real-time bidirectional messaging capabilities utilizing WebSocket and STOMP protocol handlers for instant event broadcasting and user chats.
-  * Structured decoupled, modular RESTful microservices for user profile management, posting pipelines, and relationship graphs.
-  * Optimized relational database mappings and query execution paths with advanced indexing to achieve high-speed timeline retrieval and feed generation.
+  * Built 7 REST endpoints using a clean Controller-Service-State architecture, packaged as a single executable fat JAR with embedded Tomcat and bundled frontend.
+  * Implemented an exhaustive validation engine that collects every error per participant rather than stopping at the first failure[cite: 1].
+  * Delivered 41 automated tests (JUnit 5, AssertJ, MockMvc) covering all acceptance criteria, alongside a full Postman collection.
 
 ---
 
